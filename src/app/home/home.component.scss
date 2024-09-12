@@ -1,0 +1,114 @@
+/* Body background and font settings */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center header text */
+  .center-text {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  h1, h3 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Container styling */
+  .container {
+    background: linear-gradient(135deg, #cc6709, #ff00ea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Image styling */
+  .image img {
+    max-width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .container:hover .image img {
+    transform: scale(1.05);
+  }
+
+  h1{font-size: 4.5rem;}
+  h3{font-size: 4.5rem;}
+  h3{font-size: 3rem;}
+  label{font-size: 2rem;}
+
+  .content {
+    padding: 25px;
+    text-align: left;
+  }
+  
+  .content h2 {
+    font-size: 3.5rem;
+    color: #ffffff; /* Gold heading color */
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #f0f0f0;
+  }
+  
+  /* Header styling */
+  header {
+    background: linear-gradient(135deg, #cc6709, #ff00ea);
+    padding:    50px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add some spacing to the top section */
+  .mt-3 {
+    margin-top: 3rem;
+  }
+  
+  /* General button styles */
+  button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffd700; /* Gold hover effect */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      width: 95%;
+    }
+    
+    .image {
+      margin-bottom: 20px;
+    }
+  
+    .content {
+      padding: 10px;
+    }
+  }
+  
